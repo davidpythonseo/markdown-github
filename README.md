@@ -85,6 +85,7 @@
 - 克隆项目 `git clone https://github.com/davidpythonseo/markdown-github.git`
 - 初始化 `git init`
 - 添加索引 `git add .`
+- 查看状态 `git status`
 - 合并源码 `git commit -m "提交说明"`
 - 创建主分支 `git branch -m main`
 - `SSH`链接项目 `git remote add origin git@github.com:davidpythonseo/markdown-github.git`

@@ -92,6 +92,15 @@
 - 修改`SSH`推送 `git remote set-url origin git@github.com:davidpythonseo/markdown-github.git`
 - 推送项目到`main`分支`git push -u origin main`
 
+## 换账号 - 报错处理
+    ```bash
+    remote: Permission to davidpythonseo/markdown-github.git denied to web3newbi.
+    fatal: unable to access 'https://github.com/davidpythonseo/markdown-github.git/': The requested URL returned error: 403
+    ```
+- 查看查看 `git remote -v`
+- 修改`SSH`推送 `git remote set-url origin git@github.com:davidpythonseo/markdown-github.git`
+- 推送项目到`main`分支`git push -u origin main`
+
 ![](images/new-repository.png)
 
 ## 进阶使用

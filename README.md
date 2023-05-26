@@ -81,6 +81,7 @@
 - 进入工作站目录 `cd my_workstation`
 - `Vscode`打开工作站 `code .`
 - 打开网页新建项目 [git repository](https://github.com/new)
+  ![](images/new-repository.png)
 - 项目起名 `markdown-github`
 - 克隆项目 `git clone https://github.com/davidpythonseo/markdown-github.git`
 - 初始化 `git init`
@@ -107,8 +108,6 @@ fatal: unable to access 'https://github.com/davidpythonseo/markdown-github.git/'
 - 查看查看 `git remote -v`
 - 修改`SSH`推送 `git remote set-url origin git@github.com:davidpythonseo/markdown-github.git`
 - 推送项目到`main`分支`git push -u origin main`
-
-![](images/new-repository.png)
 
 ## 进阶使用
 

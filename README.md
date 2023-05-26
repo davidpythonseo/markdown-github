@@ -89,6 +89,9 @@
 - 查看状态 `git status`
 - 合并源码 `git commit -m "提交说明"`
 - 创建主分支 `git branch -m main`
+- 两种推送方式
+  - `HTTPS` : `[http](https://github.com/davidpythonseo/markdown-github.git)`
+  - `SSH` : `HTTPS` `git@github.com:davidpythonseo/markdown-github.git`
 - `SSH`链接项目 `git remote add origin git@github.com:davidpythonseo/markdown-github.git`
 - 查看要看 `git remote -v`
 - 修改`SSH`推送 `git remote set-url origin git@github.com:davidpythonseo/markdown-github.git`

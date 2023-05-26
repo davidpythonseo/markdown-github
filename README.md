@@ -65,15 +65,15 @@
     ----|----|----|
 
 - 表情包
-    📦 Installation
-    🔨 Getting Started
-    👬 Community
-    💃 Elegant API
-    💪 HTML Entry Access Mode
-    🛡 Style Isolation
-    🧳 JS Sandbox
-    ⚡  Prefetch Assets
-    🔌 Umi Plugin Integration
+  * 📦 Installation
+  * 🔨 Getting Started
+  * 👬 Community
+  * 💃 Elegant API
+  * 💪 HTML Entry Access Mode
+  * 🛡 Style Isolation
+  * 🧳 JS Sandbox
+  * ⚡  Prefetch Assets
+  * 🔌 Umi Plugin Integration
 
 ## Git基本命令
 
@@ -94,10 +94,16 @@
 - 推送项目到`main`分支`git push -u origin main`
 
 ## 换账号 - 报错处理
-    ```bash
-    remote: Permission to davidpythonseo/markdown-github.git denied to web3newbi.
-    fatal: unable to access 'https://github.com/davidpythonseo/markdown-github.git/': The requested URL returned error: 403
-    ```
+
+1. 检查当前用户 `git config  --global user.name`
+2. 修改目标用户 `git config  --global user.name davidpythonseo`
+3. 修改目标邮箱 `git config  --global user.email davidpythonseo@gmail.com`
+
+```bash
+remote: Permission to davidpythonseo/markdown-github.git denied to web3newbi.
+fatal: unable to access 'https://github.com/davidpythonseo/markdown-github.git/': The requested URL returned error: 403
+
+```
 - 查看查看 `git remote -v`
 - 修改`SSH`推送 `git remote set-url origin git@github.com:davidpythonseo/markdown-github.git`
 - 推送项目到`main`分支`git push -u origin main`
